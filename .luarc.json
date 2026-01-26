@@ -1,0 +1,13 @@
+
+{
+  "diagnostics": {
+    "globals": ["vim"]
+  },
+  "workspace": {
+    "library": [
+      "$VIMRUNTIME",
+      "$HOME/.config/nvim"
+    ],
+    "checkThirdParty": false
+  }
+}
