@@ -11,6 +11,7 @@ return {
 					"lua_ls",
 					"clangd",
 					"html",
+					"ts_ls",
 				},
 			},
 		},
@@ -21,6 +22,7 @@ return {
 			"lua_ls",
 			"clangd",
 			"html",
+			"ts_ls",
 		})
 	end,
 }
