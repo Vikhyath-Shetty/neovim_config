@@ -12,6 +12,7 @@ return {
 					"clangd",
 					"html",
 					"ts_ls",
+					"emmet_ls",
 				},
 			},
 		},
@@ -23,6 +24,9 @@ return {
 			"clangd",
 			"html",
 			"ts_ls",
+		})
+		vim.lsp.config("emmet_ls", {
+			filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less" },
 		})
 	end,
 }
