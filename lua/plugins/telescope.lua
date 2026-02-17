@@ -48,5 +48,33 @@ return {
 			end,
 			desc = "Resume last search",
 		},
+		{
+			"<leader>gs",
+			function()
+				require("telescope.builtin").git_status()
+			end,
+			desc = "Git staus",
+		},
+		{
+			"<leader>gc",
+			function()
+				require("telescope.builtin").git_commits()
+			end,
+			desc = "Git commits",
+		},
+		{
+			"<leader>gb",
+			function()
+				require("telescope.builtin").git_branches()
+			end,
+			desc = "Git branches",
+		},
+		{
+			"<leader>gf",
+			function()
+				require("telescope.builtin").git_bcommits()
+			end,
+			desc = "File git commits",
+		},
 	},
 }
